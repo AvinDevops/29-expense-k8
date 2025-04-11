@@ -35,9 +35,9 @@ spec:
       containers:
       - name: backend
         image: avinbandela/backend:v1.0
-      envFrom:
-      - configMapRef:
-          name: backend
+        envFrom:
+        - configMapRef:
+            name: backend
 
 # ----------
 apiVersion: v1
