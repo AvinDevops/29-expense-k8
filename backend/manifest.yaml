@@ -40,7 +40,7 @@ spec:
             name: backend
 
 # ----------
-apiVersion: v1
+apiVersion: v2
 kind: Service
 metadata:
   name: backend
